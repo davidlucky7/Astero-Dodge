@@ -61,15 +61,11 @@ The game uses the following assets:
 
 Ensure these files are in the same directory as the game script.
 
-## License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you wish.
-
 ## Contribution
 
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
 
 ## Acknowledgments
 
-Special thanks to the developers and contributors of the Pygame library for making this project possible.
+Special Thanks to Chat GPT for generating the images used in the game.
 
