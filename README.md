@@ -31,7 +31,7 @@ Astro Dodge is an action-packed arcade-style game where players navigate a space
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/davidlucky7/astro-dodge.git
+   git clone https://github.com/davidlucky7/Astro-Dodge.git
    cd astro-dodge
    ```
 2. Install dependencies:
