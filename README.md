@@ -65,7 +65,7 @@ Ensure these files are in the same directory as the game script.
 
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
 
-## Acknowledgments
+## Disclaimer 
 
-Special Thanks to Chat GPT for generating the images used in the game.
+I am not the owner of the images used in this game. All images are the property of their respective creators and are used here for non-commercial purposes.
 
