@@ -1,0 +1,4 @@
+CREATE Database game_db;
+USE game_db;
+
+CREATE Table users( username varchar(50) primary key, high_score INT DEFAULT 0 );
