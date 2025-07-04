@@ -9,6 +9,8 @@ Astro Dodge is an action-packed arcade-style game where players navigate a space
 - **Simple Controls**: Easy-to-learn controls for a fun and fast-paced experience.
 - **Immersive Graphics**: Space-themed visuals with dynamic elements.
 - **Score Tracking**: Aim for the highest score and keep improving!
+- **MySQL Integration**: Automatically saves and loads high scores per user using a MySQL database.
+
 
 ## Gameplay Instructions
 
@@ -26,6 +28,8 @@ Astro Dodge is an action-packed arcade-style game where players navigate a space
 
 - **Python 3.8+**
 - **Pygame Library** (Install using `pip install pygame`)
+- **MySQL Connector** (Install using `pip install mysql-connector-python`)
+- **MySQL Server** running locally
 
 ## Installation
 
@@ -37,8 +41,11 @@ Astro Dodge is an action-packed arcade-style game where players navigate a space
 2. Install dependencies:
    ```bash
    pip install pygame
+   pip install mysql-connector-python
    ```
-3. Run the game:
+3. Create the database by using the code available in 'Code - MySQL'
+
+4. Run the game:
    ```bash
    python astro_dodge.py
    ```
@@ -68,4 +75,3 @@ Contributions are welcome! Feel free to fork the repository, make improvements, 
 ## Disclaimer 
 
 I am not the owner of the images used in this game. All images are the property of their respective creators and are used here for non-commercial purposes.
-
