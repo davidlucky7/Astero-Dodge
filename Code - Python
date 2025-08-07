@@ -160,10 +160,10 @@ while RUNNING:
         game_over_screen()
         if keys[pygame.K_RETURN]:
             # High Score Update
-            cursor.execute("SELECT high_score FROM users WHERE username = %s", (username,))
+            cursor.execute("SELECT high_score FROM users WHERE username = '{}'".format(username))
             old_score = cursor.fetchone()[0]
             if SCORE > old_score:
-                cursor.execute("UPDATE users SET high_score = {} WHERE username = '{}' ", (SCORE, username))
+                cursor.execute("UPDATE users SET high_score = {} WHERE username = '{}' ".format(SCORE, username))
                 conn.commit()
                 high_score = SCORE
                 print("New high score saved!")
