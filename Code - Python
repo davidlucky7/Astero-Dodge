@@ -4,9 +4,9 @@ import mysql.connector
 
 # Database Setup 
 conn = mysql.connector.connect(
-    host="localhost",
-    user="root", 
-    password="ssvm",
+    host="",
+    user="", 
+    password="",
     database="game_db"
 )
 cursor = conn.cursor()
